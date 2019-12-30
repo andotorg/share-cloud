@@ -1,0 +1,53 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: share-oauth-auth
+  redis:
+    host: 192.168.196.74
+    port: 6379
+    password: 123456
+    timeout: 1000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 0
+        max-wait: 0
+        min-idle: 0
+  cache:
+    cache-names: auth
+  datasource:
+    druid:
+      type: com.alibaba.druid.pool.DruidDataSource  # 配置当前要使用的数据源的操作类型
+      driver-class-name: com.mysql.jdbc.Driver      # 配置MySQL的驱动程序类
+      url: jdbc:mysql://192.168.196.74:3306/share_auth?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai   # 数据库连接地址
+      username: root                                # 数据库用户名
+      password: 123456                              # 数据库连接密码
+      min-idle: 5                                   # 数据库连接池的最小维持连接数
+      initial-size: 5                               # 初始化提供的连接数
+      max-total: 5                                  # 最大的连接数
+      max-wait-millis: 200                          # 等待连接获取的最大超时时间
+    admin:
+      url: http://localhost:8092
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    prefer-ip-address: true
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: http://192.168.196.74:8070/eureka/,http://192.168.196.74:8080/eureka/,http://192.168.196.74:8090/eureka/
+
+
+share:
+  auth:
+    types:
+      - base
+      - base_plus
+      - wechat
+      - qq
+      - phone
+      - weibo

@@ -1,0 +1,23 @@
+${AnsiColor.BRIGHT_GREEN}
+
+C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60
+          GGGpGn         G      rG   GGr
+         rp  ar         rr        G    G
+        rp   G          GG        rGn   Gr
+       pGn  pGr      rnhnapr     rGnGa  apn
+       Gn   GrrnnhnGnr     rnannGr    anpGr
+       G   G     nGn          GG       Gprn
+      rG rGr      p           rr        r Gr
+      GhpnGr      a            r       rrrGn
+       G   G      Gr          aa       Gr G
+       pr  rG   rGpGr        GGGn     GGpnn
+       GGn  GpGrr   rnnrrrran   rhr rar pGp
+        hn   G         pGGr       pGG   an
+         pr  a          nn        Gr   rn
+          Gnrhh          p       p   pGG
+          nnGGnrrr      nGprrrrGGr  rGn
+C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60-C60
+
+Graphene Platform --> Discovery Service
+${AnsiColor.BRIGHT_BLUE}
+::: Project (version:${application.version}) :::    ＼(^O^)／    Spring-Boot ${spring-boot.version}

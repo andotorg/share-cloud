@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-daofactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-daofactory/account-daofactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-discovery-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-discovery-slave1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-discovery-slave2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-framework/share-account" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-framework/share-oauth-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-framework/share-oauth-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/share-gateway-master" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

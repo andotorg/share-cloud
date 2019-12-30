@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: dev
+
+server:
+  port: 8092
+eureka:
+  instance:
+    hostname: 192.168.196.74
+  # 说明了不是客户端而是一个服务端
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8070/eureka/,http://${eureka.instance.hostname}:8080/eureka/,http://${eureka.instance.hostname}:8090/eureka/
+  server:
+    enable-self-preservation: false
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - predicates:
+#            - Path=/auth/**
+#          filters:
+#            - StripPrefix=1
+#            uri: "http://localhost:8081"

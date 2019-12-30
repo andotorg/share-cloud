@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="021decee-edd7-4a89-a58a-dee4265ab245" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/share-discovery-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/share-discovery-master/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share-framework/share-oauth-auth/src/main/java/org/andot/share/oauth/server/configura/ShareAuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/share-framework/share-oauth-auth/src/main/java/org/andot/share/oauth/server/configura/ShareAuthorizationServerConfig.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U6r1JANAeCzqjYKciyL6gYEsAH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574477367265" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AnProject\Win\share-cloud\share-framework\share-oauth-auth\src\test\resources" />
+      <recent name="E:\AnProject\Win\share-cloud\share-framework\share-oauth-auth\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OauthAuthorizationApplication">
+    <configuration name="RedisTest.redisDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="share-oauth-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andot.share.oauth.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andot.share.oauth.server" />
+      <option name="MAIN_CLASS_NAME" value="org.andot.share.oauth.server.RedisTest" />
+      <option name="METHOD_NAME" value="redisDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-gateway-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.graphene.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthAuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-oauth-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.share.oauth.server.OauthAuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-oauth-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.share.oauth.server.resource.OauthResourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.account.ShareAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareDiscoveryMasterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-discovery-master" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.graphene.discovery.ShareDiscoveryMasterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareDiscoverySlave1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-discovery-slave1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.graphene.discoveryslave.ShareDiscoverySlave1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareDiscoverySlave2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-discovery-slave2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.andot.graphene.discoveryslave.ShareDiscoverySlave2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTest.redisDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021decee-edd7-4a89-a58a-dee4265ab245" name="Default Changelist" comment="" />
+      <created>1573442040590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573442040590</updated>
+      <workItem from="1573442049100" duration="16661000" />
+      <workItem from="1573525390640" duration="3796000" />
+      <workItem from="1573640561295" duration="4785000" />
+      <workItem from="1573745839450" duration="2640000" />
+      <workItem from="1574317063034" duration="15327000" />
+      <workItem from="1574687830999" duration="1842000" />
+      <workItem from="1574777685933" duration="1184000" />
+      <workItem from="1575286539889" duration="351000" />
+      <workItem from="1575286951873" duration="10190000" />
+      <workItem from="1576545368568" duration="5713000" />
+      <workItem from="1577081794044" duration="5876000" />
+      <workItem from="1577125572652" duration="2781000" />
+      <workItem from="1577700164901" duration="907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RedisTest_redisDemo - 2019.11.21 at 17h 33m 40s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.21 at 17h 35m 28s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.21 at 17h 37m 02s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.21 at 17h 37m 54s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.22 at 21h 48m 16s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.22 at 22h 46m 12s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.22 at 22h 58m 39s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.22 at 23h 11m 52s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.23 at 00h 21m 25s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_redisDemo - 2019.11.23 at 10h 23m 19s.xml">
+      <configuration name="RedisTest.redisDemo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/share-common/src/main/java/org/andot/graphene/common/utils/JWTTokenUtil.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/share-common/src/main/java/org/andot/graphene/common/utils/JWTTokenUtil.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/share-framework/share-account/src/main/java/org/andot/account/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/share-framework/share-oauth-auth/src/main/java/org/andot/share/oauth/server/service/provider/RedisClientDetailsServiceImpl.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>account-daofactory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

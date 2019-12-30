@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="share-account" />
+        <module name="share-oauth-auth" />
+        <module name="share-discovery-master" />
+        <module name="share-oauth-resource" />
+        <module name="account-daofactory" />
+        <module name="share-common" />
+        <module name="share-discovery-slave2" />
+        <module name="share-discovery-slave1" />
+        <module name="share-gateway-master" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-daofactory" target="1.8" />
+      <module name="share-account" target="1.8" />
+      <module name="share-cloud" target="1.8" />
+      <module name="share-common" target="1.8" />
+      <module name="share-daofactory" target="1.8" />
+      <module name="share-discovery-master" target="1.8" />
+      <module name="share-discovery-slave1" target="1.8" />
+      <module name="share-discovery-slave2" target="1.8" />
+      <module name="share-framework" target="1.8" />
+      <module name="share-gateway-master" target="1.8" />
+      <module name="share-oauth-auth" target="1.8" />
+      <module name="share-oauth-resource" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-daofactory" options="-parameters" />
+      <module name="share-account" options="-parameters" />
+      <module name="share-common" options="-parameters" />
+      <module name="share-discovery-master" options="-parameters" />
+      <module name="share-discovery-slave1" options="-parameters" />
+      <module name="share-discovery-slave2" options="-parameters" />
+      <module name="share-gateway-master" options="-parameters" />
+      <module name="share-oauth-auth" options="-parameters" />
+      <module name="share-oauth-resource" options="-parameters" />
+    </option>
+  </component>
+</project>

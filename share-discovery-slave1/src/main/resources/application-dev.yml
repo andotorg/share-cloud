@@ -1,0 +1,27 @@
+server:
+  port: 8070
+eureka:
+  instance:
+    hostname: 192.168.196.74
+  # 说明了不是客户端而是一个服务端
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8080/eureka/,http://${eureka.instance.hostname}:8090/eureka/
+  server:
+    enable-self-preservation: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+spring:
+  profiles: dev
+  application:
+    name: eurka-server-slave1-ball

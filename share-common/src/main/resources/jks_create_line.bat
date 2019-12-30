@@ -1,0 +1,1 @@
+keytool -genkey -alias andot -keyalg RSA -keysize 4096 -keypass 123456 -keystore localhost.jks -storepass 123456 -validity 36500

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/share-daofactory/account-daofactory/account-daofactory.iml" filepath="$PROJECT_DIR$/share-daofactory/account-daofactory/account-daofactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-framework/share-account/share-account.iml" filepath="$PROJECT_DIR$/share-framework/share-account/share-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-cloud.iml" filepath="$PROJECT_DIR$/share-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-common/share-common.iml" filepath="$PROJECT_DIR$/share-common/share-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-daofactory/share-daofactory.iml" filepath="$PROJECT_DIR$/share-daofactory/share-daofactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-discovery-master/share-discovery-master.iml" filepath="$PROJECT_DIR$/share-discovery-master/share-discovery-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-discovery-slave1/share-discovery-slave1.iml" filepath="$PROJECT_DIR$/share-discovery-slave1/share-discovery-slave1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-discovery-slave2/share-discovery-slave2.iml" filepath="$PROJECT_DIR$/share-discovery-slave2/share-discovery-slave2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-framework/share-framework.iml" filepath="$PROJECT_DIR$/share-framework/share-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-gateway-master/share-gateway.iml" filepath="$PROJECT_DIR$/share-gateway-master/share-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-framework/share-oauth-auth/share-oauth-auth.iml" filepath="$PROJECT_DIR$/share-framework/share-oauth-auth/share-oauth-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-framework/share-oauth-resource/share-oauth-resource.iml" filepath="$PROJECT_DIR$/share-framework/share-oauth-resource/share-oauth-resource.iml" />
+    </modules>
+  </component>
+</project>

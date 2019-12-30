@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>share-cloud</artifactId>
+        <groupId>org.andot.share</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>share-daofactory</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1</version>
+    <description>是所有表的mybatis所有的mapper放置的地方</description>
+    <modules>
+        <module>account-daofactory</module>
+    </modules>
+
+
+</project>

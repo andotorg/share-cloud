@@ -1,0 +1,7 @@
+${AnsiColor.BRIGHT_GREEN}
+
+    Graphene
+
+Graphene Platform --> Account Service
+${AnsiColor.BRIGHT_BLUE}
+::: Project (version:${application.version}) :::    ＼(^O^)／    Spring-Boot ${spring-boot.version}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry
+            location="D:\InstallSoft\MavenBase\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar"/>
+    <context id="grbac-basket" targetRuntime="MyBatis3" defaultModelType="flat">
+    <!--
+    id:必选，上下文id，用于在生成错误时提示
+    targetRuntime:如果设置为MyBatis3，会自动生成Example相关的代码，如果不需要可以设置为MyBatis3Simple
+         -MyBatis3：默认的值，生成基于MyBatis3.x以上版本的内容，包括XXXBySample；
+         -MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample；
+    defaultModelType:指定生成对象的样式设置为flat,目的是只使一个表生成一个实体类。 当没有复杂的继承的时候，使用比较方便。选项如下
+        -conditional：类似hierarchical；
+        -flat：所有内容（主键，blob）等全部生成在一个对象中；
+        -hierarchical：主键生成一个XXKey对象(key class)，Blob等单独生成一个对象，其他简单属性在一个对象中(record class)
+    -->
+
+        <!-- beginningDelimiter/endingDelimiter: 指明数据库的用于标记数据库对象名的符号，比如ORACLE是双引号，MYSQL默认是`反引号  -->
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+        <!-- 格式化XML代码 -->
+        <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+
+        <!-- JavaBean 实现 序列化 接口 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!-- genenat entity时,生成toString -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+        <!--开启支持内存分页   可生成 支持内存分布的方法及参数 -->
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin" />
+
+        <!--generate entity时，生成hashcode和equals方法 -->
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+
+        <!--此处是将Example改名为Criteria 当然 想改成什么都行 -->
+        <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+            <property name="searchString" value="Example$" />
+            <property name="replaceString" value="Criteria" />
+        </plugin>
+
+        <!-- commentGenerator还可以配置一个type，设置自己的注解生成器，
+            默认使用的是org.mybatis.generator.internal.DefaultCommentGenerator -->
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="false"/>
+            <!-- 在生成的实体类中附带表字段的注释  MBG1.3.3中新增的功能 -->
+            <property name="addRemarkComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/grbac-basket?serverTimezone=UTC" userId="root"
+                        password="123456">
+
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="org.andot.account.entity"
+                            targetProject="E:\AnProject\Win\graphene\rbac-ball\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="mapper.rbac"
+                         targetProject="E:\AnProject\Win\graphene\rbac-ball\src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator targetPackage="org.andot.account.dao"
+                             targetProject="E:\AnProject\Win\graphene\rbac-ball\src\main\java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+
+        <!--<table tableName="T_FEE_AGTBILL" domainObjectName="FeeAgentBill"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>-->
+
+
+        <!--<table tableName="action" domainObjectName="Action"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="action_operate_power" domainObjectName="ActionOperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="menu" domainObjectName="Menu"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="operate_power" domainObjectName="OperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="organ" domainObjectName="Organ"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="menu_action" domainObjectName="MenuAction"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="menu_element" domainObjectName="MenuElement"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="menu_operate_power" domainObjectName="MenuOperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="page_element" domainObjectName="PageElement"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="organ_user" domainObjectName="OrganUser"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="role" domainObjectName="Role"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="resources_groups" domainObjectName="ResourcesGroups"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="role_operate_power" domainObjectName="RoleOperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="system_menu" domainObjectName="SystemMenu"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="user_file" domainObjectName="UserFile"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="action_operate_power" domainObjectName="ActionOperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="element_operate_power" domainObjectName="ElementOperatePower"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>UniSafeUserDetails getUniSafeUserDetails(Integer userId);-->
+
+            <!--<columnRenamingRule searchString="^D_"
+                                replaceString=""/>-->
+
+        <table tableName="base_user" domainObjectName="BaseUser"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+    </context>
+</generatorConfiguration>
+
