@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/share-discovery-slave2/share-discovery-slave2.iml" filepath="$PROJECT_DIR$/share-discovery-slave2/share-discovery-slave2.iml" />
       <module fileurl="file://$PROJECT_DIR$/share-framework/share-framework.iml" filepath="$PROJECT_DIR$/share-framework/share-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/share-gateway-master/share-gateway.iml" filepath="$PROJECT_DIR$/share-gateway-master/share-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/share-gateway-master/share-gateway-master.iml" filepath="$PROJECT_DIR$/share-gateway-master/share-gateway-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/share-framework/share-oauth-auth/share-oauth-auth.iml" filepath="$PROJECT_DIR$/share-framework/share-oauth-auth/share-oauth-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/share-framework/share-oauth-resource/share-oauth-resource.iml" filepath="$PROJECT_DIR$/share-framework/share-oauth-resource/share-oauth-resource.iml" />
     </modules>

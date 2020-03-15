@@ -1,5 +1,6 @@
 package org.andot.graphene.gateway.configura.security;
 
+import org.andot.share.oauth.server.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.AuthenticationServiceException;
@@ -7,6 +8,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
@@ -18,7 +20,7 @@ import java.util.NoSuchElementException;
 public class SecurityAuthenticationProviderConfig implements AuthenticationProvider {
 
     @Autowired
-    private UserDetailsServiceImpl securityUserDetailsService;
+    private UserDetailsService securityUserDetailsService;
     @Resource
     private UserService baseUserService;
 

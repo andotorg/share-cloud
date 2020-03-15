@@ -1,5 +1,8 @@
 package org.andot.share.oauth.server.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public interface UserService {
     /***
      * 根据用户名查询此用户是否存在

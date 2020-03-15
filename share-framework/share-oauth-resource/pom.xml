@@ -15,11 +15,6 @@
     <description>OAuth2 Resource Server</description>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.security.oauth.boot</groupId>
-            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
         <!-- 监控客户端 -->
         <dependency>
             <groupId>de.codecentric</groupId>
